@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: 
+Allow: /designtales24.com/sitemap.xml
+Allow: /www.designtales24.com
+Allow: /designtales24.com/404.html
+
+Sitemap: http://designtales24.com/sitemap.xml
