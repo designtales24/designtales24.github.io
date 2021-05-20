@@ -625,7 +625,7 @@ Having a professional Interior Designer on your team who has the knowledge and e
     </div>
     <div class="col-md-8">
       <h3>Leave us a message</h3>
-      <form action="http://formspree.io/you@email.com" method="post" name="sentMessage" id="contactForm" novalidate>
+      <div novalidate>
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
@@ -635,7 +635,7 @@ Having a professional Interior Designer on your team who has the knowledge and e
           </div>
           <div class="col-md-6">
             <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email" required="required" name="Email">
+              <input type="tel" id="contactNo" class="form-control" placeholder="Phone Number" required="required" name="Email">
               <p class="help-block text-danger"></p>
             </div>
           </div>
@@ -645,8 +645,8 @@ Having a professional Interior Designer on your team who has the knowledge and e
           <p class="help-block text-danger"></p>
         </div>
         <div id="success"></div>
-        <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
-      </form>
+        <button type="submit" class="btn btn-custom btn-lg" onclick="sendWA()">Send Whatsaap!</button>
+      </div>
     </div>
   </div>
 </div>
@@ -680,7 +680,7 @@ Having a professional Interior Designer on your team who has the knowledge and e
 <script type="text/javascript" src="js/nivo-lightbox.js"></script> 
 <script type="text/javascript" src="js/jquery.isotope.js"></script> 
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="wa.js"></script> 
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
